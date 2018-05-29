@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# 
+# Start of session at: Fri Apr 27 15:02:31 2018
+# Process ID: 12660
+# Current directory: C:/Projects/04-23-test/project_3
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Projects/04-23-test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data C:/Xilinx/SDK/2018.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/hier_1/microblaze_0 -bit C:/Projects/04-23-test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out C:/Projects/04-23-test/project_3/project_3.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: C:/Projects/04-23-test/project_3/updatemem.log
+# Journal file: C:/Projects/04-23-test/project_3\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace

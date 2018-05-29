@@ -1,0 +1,295 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 17 14:00:39 2018
+# Process ID: 11836
+# Current directory: C:/Projects/04-23-test/project_3/project_3.runs/design_1_Buffer_help_0_0_synth_1
+# Command line: vivado.exe -log design_1_Buffer_help_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_Buffer_help_0_0.tcl
+# Log file: C:/Projects/04-23-test/project_3/project_3.runs/design_1_Buffer_help_0_0_synth_1/design_1_Buffer_help_0_0.vds
+# Journal file: C:/Projects/04-23-test/project_3/project_3.runs/design_1_Buffer_help_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_Buffer_help_0_0.tcl -notrace
+Command: synth_design -top design_1_Buffer_help_0_0 -part xc7vx485tffg1761-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16896 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 430.418 ; gain = 103.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_Buffer_help_0_0' [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_Buffer_help_0_0/synth/design_1_Buffer_help_0_0.vhd:68]
+INFO: [Synth 8-3491] module 'Buffer_help' declared at 'C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:35' bound to instance 'U0' of component 'Buffer_help' [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_Buffer_help_0_0/synth/design_1_Buffer_help_0_0.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Buffer_help' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:45]
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-113] binding component instance 'IBUFSDI' to cell 'IBUFDS_DIFF_OUT' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:60]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'IDELAYCTRL_inst' to cell 'IDELAYCTRL' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:78]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 5 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 400.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'IDELAYE2_a' to cell 'IDELAYE2' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:98]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 400.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'IDELAYE2_inst' to cell 'IDELAYE2' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:123]
+INFO: [Synth 8-256] done synthesizing module 'Buffer_help' (1#1) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/new/Buffer.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'design_1_Buffer_help_0_0' (2#1) [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_Buffer_help_0_0/synth/design_1_Buffer_help_0_0.vhd:68]
+WARNING: [Synth 8-3331] design Buffer_help has unconnected port clk0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 485.035 ; gain = 158.121
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 485.035 ; gain = 158.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 485.035 ; gain = 158.121
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 901.875 ; gain = 0.191
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 901.875 ; gain = 574.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 901.875 ; gain = 574.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 901.875 ; gain = 574.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 901.875 ; gain = 574.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_1_Buffer_help_0_0 has unconnected port clk0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:59 . Memory (MB): peak = 901.875 ; gain = 574.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:18 . Memory (MB): peak = 949.176 ; gain = 622.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:18 . Memory (MB): peak = 949.176 ; gain = 622.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:18 . Memory (MB): peak = 949.176 ; gain = 622.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |IDELAYCTRL      |     1|
+|2     |IDELAYE2        |     1|
+|3     |IDELAYE2_1      |     1|
+|4     |IBUFDS_DIFF_OUT |     1|
++------+----------------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |     4|
+|2     |  U0     |Buffer_help |     4|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.301 ; gain = 623.387
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 950.301 ; gain = 206.547
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:20 . Memory (MB): peak = 950.309 ; gain = 623.387
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:27 . Memory (MB): peak = 988.020 ; gain = 673.367
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/04-23-test/project_3/project_3.runs/design_1_Buffer_help_0_0_synth_1/design_1_Buffer_help_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/04-23-test/project_3/project_3.runs/design_1_Buffer_help_0_0_synth_1/design_1_Buffer_help_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_Buffer_help_0_0_utilization_synth.rpt -pb design_1_Buffer_help_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 988.277 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 17 14:02:37 2018...

@@ -1,0 +1,74 @@
+{
+   ExpandedHierarchyInLayout: "",
+   comment_0: "Enter Comments here",
+   commentid: "comment_0|",
+   fillcolor_comment_0: "",
+   font_comment_0: "13",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port delayin -pg 1 -y 80 -defaultsOSRD
+preplace port empty -pg 1 -y 560 -defaultsOSRD
+preplace port d_write -pg 1 -y 580 -defaultsOSRD
+preplace port go -pg 1 -y 360 -defaultsOSRD
+preplace port wr_en -pg 1 -y 110 -defaultsOSRD
+preplace port clk -pg 1 -y 60 -defaultsOSRD
+preplace port delayout -pg 1 -y 300 -defaultsOSRD
+preplace port test -pg 1 -y 150 -defaultsOSRD
+preplace portBus dv -pg 1 -y 440 -defaultsOSRD
+preplace portBus d_in -pg 1 -y 380 -defaultsOSRD
+preplace portBus d_out -pg 1 -y 320 -defaultsOSRD
+preplace portBus wr_data_count -pg 1 -y 130 -defaultsOSRD
+preplace portBus delayout1 -pg 1 -y 340 -defaultsOSRD
+preplace portBus address -pg 1 -y 810 -defaultsOSRD
+preplace portBus tc -pg 1 -y 0 -defaultsOSRD
+preplace portBus Res -pg 1 -y 690 -defaultsOSRD
+preplace portBus dout_fifo -pg 1 -y 600 -defaultsOSRD
+preplace portBus d_out1 -pg 1 -y 260 -defaultsOSRD
+preplace portBus dout_mem -pg 1 -y 790 -defaultsOSRD
+preplace inst fifo_filled_lock_0 -pg 1 -lvl 5 -y 210 -defaultsOSRD
+preplace inst error_count -pg 1 -lvl 5 -y 700 -defaultsOSRD
+preplace inst Head_state_0 -pg 1 -lvl 2 -y 420 -defaultsOSRD
+preplace inst FIFO_enabler_0 -pg 1 -lvl 3 -y 300 -defaultsOSRD
+preplace inst CDR_state_machine_0 -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -y 740 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -y 0 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -y 930 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 3 -y 690 -defaultsOSRD
+preplace inst address_counter_16_0 -pg 1 -lvl 2 -y 740 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 4 -y 460 -defaultsOSRD
+preplace inst serial_pipeline_delay_0 -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace netloc util_vector_logic_0_Res 1 3 2 1030 640 1430
+preplace netloc CDR_state_machine_0_d_write 1 1 5 340 320 650J 390 980J 270 1470J 350 1730J
+preplace netloc Head_state_0_d_out 1 2 4 600 410 990 280 1500 290 1740
+preplace netloc address_counter_16_0_address 1 2 4 N 750 980 810 NJ 810 NJ
+preplace netloc protect_fifo_0_fifo_out 1 5 1 NJ
+preplace netloc d_in_1 1 0 1 NJ
+preplace netloc serial_pipeline_delay_0_delayout 1 0 6 40 320 330 300 630J 430 1010J 290 1460J 300 NJ
+preplace netloc clk_1 1 0 5 30 310 300 560 NJ 560 1010 630 1490
+preplace netloc Head_state_0_Failed 1 2 1 620
+preplace netloc fifo_generator_0_dout 1 3 3 1020 620 1500 600 NJ
+preplace netloc blk_mem_gen_0_douta 1 3 3 1030 830 1500 790 NJ
+preplace netloc fifo_generator_0_wr_data_count 1 4 2 1430 130 NJ
+preplace netloc fifo_generator_0_empty 1 2 4 670 610 980 610 1470J 560 NJ
+preplace netloc FIFO_enabler_0_wr_en 1 3 3 1020 110 NJ 110 NJ
+preplace netloc dv_1 1 0 1 NJ
+preplace netloc util_vector_logic_1_Res 1 3 3 NJ 0 NJ 0 N
+preplace netloc error_count_delayout 1 3 3 1030 820 NJ 820 1740
+preplace netloc util_vector_logic_2_Res 1 3 1 970J
+preplace netloc Net1 1 2 3 640 440 1000J 260 1480
+preplace netloc Net 1 1 5 350 330 670J 400 970J 310 1460 310 1730
+preplace netloc CDR_state_machine_0_d_out 1 1 5 310J 210 NJ 210 N 210 1440J 320 1740J
+preplace netloc Head_state_0_go 1 2 4 660J 420 1030 300 1450 360 N
+preplace netloc delayin_1 1 0 4 20 300 320J 310 610J 550 990
+preplace cgraphic comment_0 place right 76 224 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 180 480 820 1230 1620 1770 -top -70 -bot 1020
+",
+   linecolor_comment_0: "",
+   linktoobj_comment_0: "/hier_0/util_vector_logic_0/Op1",
+   linktotype_comment_0: "bd_pin",
+   textcolor_comment_0: "",
+}
+0
+{
+   /hier_0/util_vector_logic_0/Op1/comment_0: "comment_0",
+}

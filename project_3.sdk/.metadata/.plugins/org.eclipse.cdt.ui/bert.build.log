@@ -1,0 +1,28 @@
+12:34:20 **** Incremental Build of configuration Debug for project bert ****
+make all 
+'Building file: ../src/bert.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bert.o" -I../../bert_bsp/hier_1_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bert.d" -MT"src/bert.o" -o "src/bert.o" "../src/bert.c"
+../src/bert.c: In function 'main':
+../src/bert.c:40:6: warning: unused variable 'w' [-Wunused-variable]
+  int w=0;
+      ^
+../src/bert.c:39:6: warning: unused variable 'z' [-Wunused-variable]
+  int z =0;
+      ^
+'Finished building: ../src/bert.c'
+' '
+'Building target: bert.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bert_bsp/hier_1_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "bert.elf"  ./src/bert.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bert.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bert.elf  |tee "bert.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  13676	    356	   3336	  17368	   43d8	bert.elf
+'Finished building: bert.elf.size'
+' '
+
+12:34:24 Build Finished (took 3s.642ms)
+

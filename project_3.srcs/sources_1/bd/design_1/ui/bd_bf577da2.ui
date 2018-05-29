@@ -1,0 +1,39 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port clk0 -pg 1 -y 130 -defaultsOSRD
+preplace port rst1 -pg 1 -y 310 -defaultsOSRD
+preplace port in_n -pg 1 -y 110 -defaultsOSRD
+preplace port rst -pg 1 -y 190 -defaultsOSRD
+preplace port clk90 -pg 1 -y 30 -defaultsOSRD
+preplace port in_p -pg 1 -y 90 -defaultsOSRD
+preplace portBus A_dout10b -pg 1 -y 250 -defaultsOSRD
+preplace portBus out_2 -pg 1 -y 470 -defaultsOSRD
+preplace portBus out_ready -pg 1 -y 490 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -y 250 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace inst Buffer_help_0 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst os48_1011x20bTo10b_top2_0 -pg 1 -lvl 3 -y 300 -defaultsOSRD
+preplace inst oversample_8x_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace inst b10_to_2b_0 -pg 1 -lvl 4 -y 480 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 2 1 NJ
+preplace netloc in_p_1 1 0 1 NJ
+preplace netloc rst1_1 1 0 4 NJ 310 NJ 310 550 450 NJ
+preplace netloc b10_to_2b_0_out_2 1 4 1 NJ
+preplace netloc rst_1 1 0 2 NJ 190 290J
+preplace netloc os48_1011x20bTo10b_top2_0_A_dout10bEn 1 3 1 910
+preplace netloc in_n_1 1 0 1 NJ
+preplace netloc b10_to_2b_0_out_ready 1 4 1 NJ
+preplace netloc Buffer_help_0_sdatb_45_dly 1 1 1 N
+preplace netloc xlconstant_0_dout 1 2 1 580
+preplace netloc oversample_8x_0_dout_rdy 1 2 1 590
+preplace netloc Buffer_help_0_sdat_0_dly 1 1 1 N
+preplace netloc os48_1011x20bTo10b_top2_0_A_dout10b 1 3 2 920 250 NJ
+preplace netloc oversample_8x_0_dout 1 2 1 560
+preplace netloc clk_wiz_1_clk90 1 0 2 NJ 30 280J
+preplace netloc clk_wiz_1_clk 1 0 4 20 20 290 10 570 490 NJ
+levelinfo -pg 1 0 150 420 750 1070 1240 -top 0 -bot 570
+",
+}
+

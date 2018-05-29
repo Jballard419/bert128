@@ -1,0 +1,24 @@
+$date
+        2018-May-29 12:27:07
+$end
+$version
+        Vivado v2018.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 2 " u_ila_0_out_2 [1:0] $end
+$var reg 1 $ u_ila_0_out_ready_1 $end
+$var reg 1 % u_ila_0_out_ready $end
+$var reg 1 & design_1_i/hier_0/error_count/dout_fifo $end
+$var reg 1 ' design_1_i/hier_0/error_count/dout_mem $end
+$var reg 14 ( design_1_i/address_counter_1/U0/address [13:0] $end
+$var reg 32 6 design_1_i/c_accum_0/Q [31:0] $end
+$var reg 10 V u_ila_0_A_dout10b [9:0] $end
+$var reg 1 ` u_ila_0_tc $end
+$var reg 1 a _TRIGGER $end
+$var reg 1 b _WINDOW $end
+$var reg 1 c _GAP $end
+$upscope $end
+$enddefinitions $end

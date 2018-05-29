@@ -1,0 +1,98 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 8360
+License: Customer
+
+Current time: 	2/16/18 3:35:50 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 89 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/ProgramData/Oracle/Java/javapath;C:/WINDOWS/system32;C:/WINDOWS;C:/WINDOWS/System32/Wbem;C:/WINDOWS/System32/WindowsPowerShell/v1.0/;C:/Cadence/SPB_16.6/OpenAccess/bin/win32/opt;C:/Cadence/SPB_16.6/tools/Capture;C:/Cadence/SPB_16.6/tools/PSpice/Library;C:/Cadence/SPB_16.6/tools/PSpice;C:/Cadence/SPB_16.6/tools/specctra/bin;C:/Cadence/SPB_16.6/tools/fet/bin;C:/Cadence/SPB_16.6/tools/libutil/bin;C:/Cadence/SPB_16.6/tools/bin;C:/Cadence/SPB_16.6/tools/pcb/bin;C:/Program Files/PuTTY/;C:/Program Files/IVI Foundation/VISA/Win64/Bin/;C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/;C:/Program Files (x86)/Intel/UCRT/;C:/Program Files/Intel/UCRT/;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/Users/s883g970/AppData/Local/GitHubDesktop/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	s883g970
+User home directory: C:/Users/s883g970
+User working directory: C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/s883g970/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/s883g970/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/s883g970/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1/.Xil/Vivado-8360-PHSX-79FJZ32
+
+GUI allocated memory:	134 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 508 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 42 MB (+41169kb) [00:00:19]
+// [Engine Memory]: 439 MB (+309025kb) [00:00:19]
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bs:g (cg:JFrame):  Reading simulation file 'C:\SharedProjects\BERT\project_3\project_3.hw\hw_1\wave\hw_ila_data_1\hw_ila_data_1.wdb' : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_wave_database {C:\SharedProjects\BERT\project_3\project_3.hw\hw_1\wave\hw_ila_data_1\hw_ila_data_1.wdb} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+3104kb) [00:00:25]
+// [Engine Memory]: 525 MB (+67257kb) [00:00:25]
+// [GUI Memory]: 52 MB (+3532kb) [00:00:25]
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 34 MB. Current time: 2/16/18 3:35:54 PM CST
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: current_fileset: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 728.156 ; gain = 30.867 
+// [GUI Memory]: 56 MB (+1451kb) [00:00:28]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: open_wave_config C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 555 MB (+3747kb) [00:00:30]
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 62 MB (+3149kb) [00:00:30]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 555 MB. GUI used memory: 36 MB. Current time: 2/16/18 3:35:57 PM CST
+// Tcl Message: open_wave_database: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 735.703 ; gain = 38.414 
+dismissDialog("Reading simulation file 'C:\\SharedProjects\\BERT\\project_3\\project_3.hw\\hw_1\\wave\\hw_ila_data_1\\hw_ila_data_1.wdb'"); // bs:g (cg:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM

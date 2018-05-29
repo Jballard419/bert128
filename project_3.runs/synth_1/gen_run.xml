@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1527612845">
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/CDR_state_machine.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_hello_fifo/project_hello_fifo.srcs/sources_1/new/CDR_state_machine.vhd"/>
+        <Attr Name="ImportTime" Val="1519686967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/serial_pipeline_delay.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/FIFO_enabler.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_hello_fifo/project_hello_fifo.srcs/sources_1/new/FIFO_enabler.vhd"/>
+        <Attr Name="ImportTime" Val="1519695893"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/fifo_filled_lock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_hello_fifo/project_hello_fifo.srcs/sources_1/new/fifo_filled_lock.vhd"/>
+        <Attr Name="ImportTime" Val="1519697004"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/address_counter_16.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_hello_fifo/project_hello_fifo.srcs/sources_1/new/address_counter_16.vhd"/>
+        <Attr Name="ImportTime" Val="1519695909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Buffer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/new/Buffer.vhd"/>
+        <Attr Name="ImportTime" Val="1522879871"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/oversample_8x.vhd"/>
+        <Attr Name="ImportTime" Val="1522869201"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/PKG_XILINX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/PKG_XILINX.vhd"/>
+        <Attr Name="ImportTime" Val="1158951122"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/PKG_OVERSAMP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/PKG_OVERSAMP.vhd"/>
+        <Attr Name="ImportTime" Val="1158951134"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/ff_fifo2e.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/ff_fifo2e.vhd"/>
+        <Attr Name="ImportTime" Val="1158951200"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/ff_fifo2e_10b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/ff_fifo2e_10b.vhd"/>
+        <Attr Name="ImportTime" Val="1158951188"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/os48_1011x20bTo10b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/os48_1011x20bTo10b.vhd"/>
+        <Attr Name="ImportTime" Val="1523306915"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/osDeci20b_48_1011x_BRAM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/osDeci20b_48_1011x_BRAM.vhd"/>
+        <Attr Name="ImportTime" Val="1158951212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/sipoCtl10b_BRAM_v2_virtex5.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/sipoCtl10b_BRAM_v2_virtex5.vhd"/>
+        <Attr Name="ImportTime" Val="1158951104"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/os48_1011x20bTo10b_top2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/os48_1011x20bTo10b_top2.vhd"/>
+        <Attr Name="ImportTime" Val="1523306747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/10b_to_2b.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/new/10b_to_2b.vhd"/>
+        <Attr Name="ImportTime" Val="1523397935"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/address_counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_hello_fifo/project_hello_fifo.srcs/sources_1/imports/new/address_counter.vhd"/>
+        <Attr Name="ImportTime" Val="1517870632"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_change.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Head_state.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_header/project_header.srcs/sources_1/new/Head_state.vhd"/>
+        <Attr Name="ImportTime" Val="1526418269"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/protect_fifo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/hdl/design_1_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/5b_bitstream.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/5b_bitstream_copy.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/VHDL/sipoCtl10b_BRAM_v2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../project_3_400_hz_8x/project_1/project_1.srcs/sources_1/imports/VHDL/sipoCtl10b_BRAM_v2.vhd"/>
+        <Attr Name="ImportTime" Val="1158951146"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_FIFO_enabler_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_address_counter_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_serial_pipeline_delay_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_serial_pipeline_delay_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_serial_pipeline_delay_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_address_counter_16_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_CDR_state_machine_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_serial_pipeline_delay_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_Buffer_help_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clock_change_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_xlconcat_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlconstant_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlslice_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlslice_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlslice_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_blk_mem_gen_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_oversample_8x_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_ds_buf_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_os48_1011x20bTo10b_top2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_b10_to_2b_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xlconstant_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clock_change_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_Head_state_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_fifo_filled_lock_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_error_valid_0_0"/>
+</GenRun>

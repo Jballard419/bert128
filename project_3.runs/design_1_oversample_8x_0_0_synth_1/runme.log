@@ -1,0 +1,423 @@
+
+*** Running vivado
+    with args -log design_1_oversample_8x_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_oversample_8x_0_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_oversample_8x_0_0.tcl -notrace
+Command: synth_design -top design_1_oversample_8x_0_0 -part xc7vx485tffg1761-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10344 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 429.891 ; gain = 103.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_oversample_8x_0_0' [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_oversample_8x_0_0/synth/design_1_oversample_8x_0_0.vhd:68]
+	Parameter IDELAY_45_DEGREES bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'oversample_8x' declared at 'C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:53' bound to instance 'U0' of component 'oversample_8x' [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_oversample_8x_0_0/synth/design_1_oversample_8x_0_0.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'oversample_8x' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:69]
+	Parameter IDELAY_45_DEGREES bound to: 6 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:76]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:76]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:76]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:78]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:78]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:78]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:79]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:79]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:79]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:80]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:80]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:80]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:81]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:81]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:81]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:82]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:82]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:82]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:83]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:83]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:83]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:88]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'a1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:194]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'a2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:204]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'a3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:213]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'b1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:225]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'b2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:234]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'b3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:243]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'c1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:255]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'c2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:264]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'c3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:273]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'd1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:285]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'd2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:294]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'd3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:303]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'e1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:315]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'e2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:324]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'e3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:333]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'f1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:345]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'f2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:354]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'f3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:363]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'g1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:375]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'g2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:384]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'g3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:393]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'h1FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:405]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'h2FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:414]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'h3FF' to cell 'FDCPE' [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:423]
+INFO: [Synth 8-256] done synthesizing module 'oversample_8x' (1#1) [C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/imports/sources_1/imports/VHDL/oversample_8x.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'design_1_oversample_8x_0_0' (2#1) [c:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/ip/design_1_oversample_8x_0_0/synth/design_1_oversample_8x_0_0.vhd:68]
+WARNING: [Synth 8-3331] design oversample_8x has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 484.566 ; gain = 158.082
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 484.566 ; gain = 158.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 484.566 ; gain = 158.082
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 24 instances were transformed.
+  FDCPE => FDCPE (FDCE, FDPE, LUT3, LDCE, VCC): 24 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 978.813 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module oversample_8x 
+Detailed RTL Component Info : 
++---Registers : 
+	               20 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_1_oversample_8x_0_0 has unconnected port rst
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 978.813 ; gain = 652.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     6|
+|2     |LUT2 |     4|
+|3     |LUT3 |    20|
+|4     |FDCE |    24|
+|5     |FDRE |    50|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |   104|
+|2     |  U0     |oversample_8x |   102|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 986.617 ; gain = 165.887
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 986.617 ; gain = 660.133
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:46 . Memory (MB): peak = 1002.590 ; gain = 688.793
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/04-23-test/project_3/project_3.runs/design_1_oversample_8x_0_0_synth_1/design_1_oversample_8x_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Projects/04-23-test/project_3/project_3.runs/design_1_oversample_8x_0_0_synth_1/design_1_oversample_8x_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_oversample_8x_0_0_utilization_synth.rpt -pb design_1_oversample_8x_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.373 . Memory (MB): peak = 1002.590 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 14 15:09:14 2018...

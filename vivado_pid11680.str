@@ -1,0 +1,416 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 11680
+License: Customer
+
+Current time: 	Tue May 08 15:33:08 CDT 2018
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1680x1050
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 158 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	j317b141
+User home directory: C:/Users/j317b141
+User working directory: C:/Projects/04-23-test/project_3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/j317b141/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/j317b141/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/j317b141/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Projects/04-23-test/project_3/vivado.log
+Vivado journal file location: 	C:/Projects/04-23-test/project_3/vivado.jou
+Engine tmp dir: 	C:/Projects/04-23-test/project_3/.Xil/Vivado-11680-PHSX-82QWMN2
+
+GUI allocated memory:	204 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 606 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+52857kb) [00:00:04]
+// [Engine Memory]: 520 MB (+394095kb) [00:00:04]
+// Opening Vivado Project: C:\Projects\04-23-test\project_3\project_3.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Projects/04-23-test/project_3/project_3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 62 MB (+6884kb) [00:00:08]
+// [Engine Memory]: 641 MB (+99478kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 33 MB. Current time: 5/8/18 3:33:10 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 706 MB (+34378kb) [00:00:17]
+// [GUI Memory]: 69 MB (+3555kb) [00:00:20]
+// [Engine Memory]: 758 MB (+16940kb) [00:00:20]
+// [GUI Memory]: 78 MB (+5981kb) [00:00:20]
+// [GUI Memory]: 89 MB (+7353kb) [00:00:21]
+// [Engine Memory]: 804 MB (+8518kb) [00:00:21]
+// [GUI Memory]: 95 MB (+2016kb) [00:00:22]
+// [Engine Memory]: 853 MB (+9980kb) [00:00:22]
+// Tcl Message: open_project C:/Projects/04-23-test/project_3/project_3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1049.078 ; gain = 292.152 
+// Project name: project_3; location: C:/Projects/04-23-test/project_3; part: xc7vx485tffg1761-2
+// [GUI Memory]: 111 MB (+11722kb) [00:00:25]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 69 MB. Current time: 5/8/18 3:33:47 PM CDT
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 150 MB (+34790kb) [00:00:53]
+// [Engine Memory]: 956 MB (+62939kb) [00:00:53]
+// [GUI Memory]: 173 MB (+16152kb) [00:00:55]
+// Elapsed time: 29 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// bv (ch):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0 Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_bit1 Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_bit0 Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 Adding cell -- xilinx.com:ip:c_accum:12.0 - c_accum_0 Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_1 Adding cell -- xilinx.com:ip:ila:6.2 - ila_0 
+// Tcl Message: INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details. 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_1 Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3 Adding cell -- ku.edu:module_ref:address_counter:1.0 - address_counter_1 Adding cell -- xilinx.com:module_ref:clock_change:1.0 - clock_change_0 Adding cell -- xilinx.com:module_ref:clock_change:1.0 - clock_change_1 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /hier_0/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- ku.edu:module_ref:protect_fifo:1.0 - protect_fifo_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1 Adding cell -- ku.edu:module_ref:serial_pipeline_delay:1.0 - serial_pipeline_delay_3 Adding cell -- ku.edu:module_ref:serial_pipeline_delay:1.0 - serial_pipeline_delay_2 Adding cell -- ku.edu:module_ref:serial_pipeline_delay:1.0 - serial_pipeline_delay_1 
+// Tcl Message: Successfully read diagram <design_1> from BD file <C:/Projects/04-23-test/project_3/project_3.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,077 MB (+77092kb) [00:01:03]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 78 MB. Current time: 5/8/18 3:34:06 PM CDT
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1273.844 ; gain = 105.160 
+dismissDialog("Open Block Design"); // bv (ch)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /h_bert_douta 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /h_bert_douta 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /h_bert_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /h_bert_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /h_bert_douta 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_gpio_0_gpio2_io_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /axi_gpio_0_gpio2_io_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /hier_0_dout_mem 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /hier_0_dout_mem 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_bit0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_bit0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /New_cdr_A_dout10b 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_1_ILA 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (ch):  Re-customize IP : addNotify
+// r (ch): Re-customize IP: addNotify
+// [Engine Memory]: 1,140 MB (+8909kb) [00:01:12]
+dismissDialog("Re-customize IP"); // O (ch)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Probe_Ports(0..7)", 1); // aX (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Probe_Ports(8..10)", 2); // aX (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_2 -prev_step  
+// TclEventType: RUN_RESET
+// bv (ch):  Generate Bitstream : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May  8 15:34:27 2018] Launched impl_2... Run output will be captured here: C:/Projects/04-23-test/project_3/project_3.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// [Engine Memory]: 1,773 MB (+604391kb) [00:01:34]
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A25A2AA 
+// bv (ch):  Auto Connect : addNotify
+// Tcl Message: current_hw_device [get_hw_devices xc7vx485t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7vx485t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7vx485t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,786 MB. GUI used memory: 108 MB. Current time: 5/8/18 3:34:36 PM CDT
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: HW_DEVICE_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: HW_ILA_CHANGE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: HW_ILA_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1995.125 ; gain = 16.816 
+dismissDialog("Auto Connect"); // bv (ch)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true); // t (O, ch) - Node
+// Elapsed time: 28 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 281, 124); // dn (ae, ch)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true); // t (O, ch) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true, false, false, false, true, false); // t (O, ch) - Popup Trigger - Node
+// Elapsed time: 19 seconds
+selectTab((HResource) null, (HResource) null, "Serial I/O Scans", 3); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Serial I/O Links", 2); // aE (Q, ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true, false, false, false, true, false); // t (O, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (ai, bB)
+setFileChooser("C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ch)
+// Tcl Message: set_property PROBES.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.ltx} [get_hw_devices xc7vx485t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.ltx} [get_hw_devices xc7vx485t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.bit} [get_hw_devices xc7vx485t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7vx485t_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,841 MB. GUI used memory: 100 MB. Current time: 5/8/18 3:35:51 PM CDT
+// [Engine Memory]: 1,965 MB (+107986kb) [00:02:53]
+// [Engine Memory]: 2,115 MB (+54135kb) [00:02:58]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 2362.320 ; gain = 364.777 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7vx485t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// 'I' command handler elapsed time: 26 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,152 MB. GUI used memory: 100 MB. Current time: 5/8/18 3:36:06 PM CDT
+selectButton(PAResourceItoN.IlaProbeTablePanel_SPECIFY_PROBES_FILE_AND_REFRESH, "Specify the probes file and refresh the device"); // d (c, ch)
+// bJ (ch): Refresh Device: addNotify
+selectButton(PAResourceQtoS.RefreshDeviceDialog_REFRESH_DEVICE, "Refresh"); // a (bJ)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Refresh Device"); // bJ (ch)
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// bv (ch):  Refresh Device : addNotify
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7vx485t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7vx485t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 58 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bv)
+// TclEventType: HW_DEVICE_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: HW_ILA_CHANGE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: HW_ILA_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:03 ; elapsed = 00:01:02 . Memory (MB): peak = 2369.699 ; gain = 0.090 
+dismissDialog("Refresh Device"); // bv (ch)
+// ah (ch): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (ch)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true, false, false, false, true, false); // t (O, ch) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true); // t (O, ch) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7vx485t_0 (2) ; Programmed", 2, "xc7vx485t_0 (2)", 0, true, false, false, false, true, false); // t (O, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ch): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bv (ch):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ch)
+// Tcl Message: set_property PROBES.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.ltx} [get_hw_devices xc7vx485t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.ltx} [get_hw_devices xc7vx485t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Projects/700/project_3/project_3.runs/impl_2/design_1_wrapper.bit} [get_hw_devices xc7vx485t_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [get_hw_devices xc7vx485t_0] 
+// [Engine Memory]: 2,283 MB (+65978kb) [00:04:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,306 MB. GUI used memory: 101 MB. Current time: 5/8/18 3:37:26 PM CDT
+// [Engine Memory]: 2,453 MB (+58547kb) [00:04:29]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 2790.074 ; gain = 419.180 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE

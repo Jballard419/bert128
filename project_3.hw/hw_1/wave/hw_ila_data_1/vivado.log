@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Feb 16 15:35:16 2018
+# Process ID: 8360
+# Current directory: C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10024 C:\SharedProjects\BERT\project_3\project_3.hw\hw_1\wave\hw_ila_data_1\hw_ila_data_1.wdb
+# Log file: C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1/vivado.log
+# Journal file: C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\SharedProjects\BERT\project_3\project_3.hw\hw_1\wave\hw_ila_data_1\hw_ila_data_1.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+current_fileset: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 728.156 ; gain = 30.867
+open_wave_config C:/SharedProjects/BERT/project_3/project_3.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe0_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe3_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe1_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe5_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe4_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe5_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe2_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe7_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe6_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe9_1 was not found in the design.
+WARNING: Simulation object design_1_i/system_ila_0/U0/probe8_1 was not found in the design.
+open_wave_database: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 735.703 ; gain = 38.414

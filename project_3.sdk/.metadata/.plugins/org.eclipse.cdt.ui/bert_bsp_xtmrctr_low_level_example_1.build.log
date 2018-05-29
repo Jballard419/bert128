@@ -1,0 +1,21 @@
+11:45:26 **** Build of configuration Debug for project bert_bsp_xtmrctr_low_level_example_1 ****
+make all 
+'Building file: ../src/xtmrctr_low_level_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr_low_level_example.o" -I../../bert_bsp/h_microblaze_microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xtmrctr_low_level_example.d" -MT"src/xtmrctr_low_level_example.o" -o "src/xtmrctr_low_level_example.o" "../src/xtmrctr_low_level_example.c"
+'Finished building: ../src/xtmrctr_low_level_example.c'
+' '
+'Building target: bert_bsp_xtmrctr_low_level_example_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../bert_bsp/h_microblaze_microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "bert_bsp_xtmrctr_low_level_example_1.elf"  ./src/xtmrctr_low_level_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bert_bsp_xtmrctr_low_level_example_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bert_bsp_xtmrctr_low_level_example_1.elf  |tee "bert_bsp_xtmrctr_low_level_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6724	    324	   3112	  10160	   27b0	bert_bsp_xtmrctr_low_level_example_1.elf
+'Finished building: bert_bsp_xtmrctr_low_level_example_1.elf.size'
+' '
+
+11:45:27 Build Finished (took 1s.496ms)
+
